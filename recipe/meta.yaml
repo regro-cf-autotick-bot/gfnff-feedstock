@@ -10,7 +10,7 @@ source:
   sha256: 8511a2b8910894e75e12abb690b6f566b80e6afdf6f3618e2494ac8d6650eb0a
 
 build:
-  number: 0
+  number: 1
   # Force the Ninja generator: conda-build defaults CMAKE_GENERATOR to
   # "Unix Makefiles", which makes scikit-build-core skip Ninja detection and
   # never set CMAKE_MAKE_PROGRAM (there is no `make` in the build image).
