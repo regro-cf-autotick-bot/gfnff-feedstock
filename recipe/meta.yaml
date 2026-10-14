@@ -1,5 +1,5 @@
 {% set name = "gfnff" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pprcht/gfnff/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 8511a2b8910894e75e12abb690b6f566b80e6afdf6f3618e2494ac8d6650eb0a
+  sha256: 85cda9e0b8e22a9960e6f1e5af2a61c1e0eaf7fd975cbf635d61a0c66e7ac0dd
 
 build:
   number: 0
